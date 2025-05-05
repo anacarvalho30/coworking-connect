@@ -1,0 +1,126 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Background geral */
+body {
+    background-color: #f5f0e6; /* cor de fundo clara para seções depois do banner */
+    color: #f5f0e6;
+}
+
+/* Header */
+header {
+    background-color: rgba(60, 42, 30, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo sem borda */
+.logo img {
+    height: 70px;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #d2b48c;
+}
+
+/* Hero - Banner principal */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('imagens/fundo.png.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-start; /* Alinha à esquerda */
+    align-items: center;
+    text-align: left; /* Alinha texto à esquerda */
+    padding: 80px 50px 0 50px; /* Espaço em cima e nas laterais */
+}
+
+/* Conteúdo do Hero */
+.texto-hero {
+    max-width: 600px; /* Limita largura */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px; /* Espaço entre elementos */
+}
+
+.texto-hero h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+
+.texto-hero h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.texto-hero p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Sobre a empresa */
+.sobre {
+    padding: 100px 50px 50px 50px;
+    background-color: #f5f0e6;
+    color: #333; /* Corrige a cor do texto para o conteúdo depois do hero */
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre img {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.conteudo-sobre p {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
