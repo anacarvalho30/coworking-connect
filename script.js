@@ -1,7 +1,4 @@
-// Mensagem de boas-vindas no console
 console.log("Bem-vindo à Oak Smiths!");
-
-// Quando a página carregar, animar o texto principal
 document.addEventListener('DOMContentLoaded', function() {
     const heroText = document.querySelector('.hero');
     heroText.style.opacity = 0;
@@ -14,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500); // começa 0,5s depois que a página carrega
 });
 
-// Função de clique no menu (futuro)
+
 const menuLinks = document.querySelectorAll('nav ul li a');
 
 menuLinks.forEach(link => {
