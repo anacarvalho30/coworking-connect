@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ html, body {
 
 /* Background geral */
 body {
-    background-color: #f5f0e6; /* cor de fundo clara para seções depois do banner */
+    background-color: #f5f0e6; 
     color: #f5f0e6;
 }
 
@@ -60,19 +60,19 @@ nav ul li a:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
                 url('imagens/fundo.png.png') no-repeat center center/cover;
     display: flex;
-    justify-content: flex-start; /* Alinha à esquerda */
+    justify-content: flex-start; 
     align-items: center;
-    text-align: left; /* Alinha texto à esquerda */
-    padding: 80px 50px 0 50px; /* Espaço em cima e nas laterais */
+    text-align: left; 
+    padding: 80px 50px 0 50px; 
 }
 
 /* Conteúdo do Hero */
 .texto-hero {
-    max-width: 600px; /* Limita largura */
+    max-width: 600px; 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px; /* Espaço entre elementos */
+    gap: 20px; 
 }
 
 .texto-hero h1 {
@@ -98,7 +98,7 @@ nav ul li a:hover {
 .sobre {
     padding: 100px 50px 50px 50px;
     background-color: #f5f0e6;
-    color: #333; /* Corrige a cor do texto para o conteúdo depois do hero */
+    color: #333; 
 }
 
 .sobre h2 {
